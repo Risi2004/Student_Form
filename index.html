@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class = "table">
+            <form>
+            <h1>Student Form</h1>
+            <table id = "table1" border="2px">
+                <tr>
+                    <td>Name</td>
+                    <td><input id = "intputBox1" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input id = "intputBox2" type="text"></td>
+                </tr>
+                <tr id = "intputBox3">
+                    <td>Gender</td>
+                    <td>  
+                        <input type="radio" id="male" name="gender" value="male" >
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td id = "intputBox4">
+                        <label for="myDropdown"></label>
+                        <select id="myDropdown" name="myDropdown">
+                        <option value="option1">JavaScript</option>
+                        <option value="option2">Python</option>
+                        <option value="option3">HTML</option>
+                        <option value="option4">CSS</option>
+                        <option value="option5">Java</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input id = "intputBox5" type="text"></td>
+                </tr>
+                <tr>
+                    <td class = "table_special" id = "btn" colspan="2"><button>Save</button></td>
+                </tr>
+            </form>
+            </table>
+        </div>
+        <div>
+            <table border="2px" id = "table2">
+                <form>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                    <th>Gender</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </form>
+            </table>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
